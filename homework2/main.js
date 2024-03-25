@@ -32,6 +32,12 @@ const InstructionsArgs = {
     [instructions.SET]: 2,
 };
 
+
+/**
+ * Создание массива с соответствие индекса инструкций их положению в общем списке команд.
+ * @param program
+ * @returns {*[]}
+ */
 const readInstructionsMap = (program) => {
     const instructionsMap = [];
     let i = 0;
